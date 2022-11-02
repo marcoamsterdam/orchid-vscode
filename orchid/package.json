@@ -1,11 +1,12 @@
 {
-    "name": "orchid",
+    "name": "orch",
     "version": "0.0.1",
     "engines": {
         "vscode": ">=0.9.0-pre.1"
     },
-    "publisher": "Marco Ferretti",
-    "icon":"./images/orchidlogo.png",
+    "publisher": "MarcoFerretti",
+    "icon":"images/orchidlogo.png",
+    "repository": "https://github.com/marcoamsterdam/orchid-vscode",
     "contributes": {
         "languages": [{
             "id": "orchid",
@@ -13,8 +14,8 @@
             "extensions": [".orchid",".orch"],
             "configuration": "./language-configuration.json",
             "icon": {
-                "light": "./images/orchidicon.png",
-                "dark": "./images/orchidicon.png"
+                "light": "images/orchidicon.png",
+                "dark": "images/orchidicon.png"
               }
         }],
         "grammars": [{
